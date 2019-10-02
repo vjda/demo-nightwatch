@@ -9,8 +9,8 @@
   "author": "Paradigma",
   "license": "ISC",
   "dependencies": {
-    "nightwatch": "^0.9.16",
-    "selenium-server": "^3.6.0",
-    "chromedriver": "^2.33.2"
+    "nightwatch": "^1.2.4",
+    "selenium-server": "^3.141.59",
+    "chromedriver": "^77.0.0"
   }
 }
