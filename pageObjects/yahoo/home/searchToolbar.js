@@ -11,6 +11,9 @@ module.exports = {
   commands: [myCommands],
   url: 'https://es.search.yahoo.com/',
   elements: {
+    acceptOath: {
+      selector: 'button.btn.primary'
+    },
     searchBar: {
       selector: 'input[type=text]'
     },

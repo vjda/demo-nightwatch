@@ -27,10 +27,11 @@ module.exports = {
     var yahooSearch = client.page.yahoo.home.searchToolbar();
 
     yahooSearch
+      .click('@acceptOath')
       .waitForPageLoaded()
       .assert.title('Yahoo Search - Búsqueda en la Web')
       .setValue('@searchBar', 'Nightwatchjs org')
-      .assert.hasFocus('@searchBar')
+      //.assert.hasFocus('@searchBar')
   },
 
   'Paso 2: Realizar la busqueda': function (client) {
