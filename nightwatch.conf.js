@@ -41,7 +41,8 @@ module.exports = {
       desiredCapabilities: {
         browserName: 'chrome',
         chromeOptions: {
-          args: ['--disable-popup-blocking', '--no-sandbox']
+          args: ['--disable-popup-blocking', '--no-sandbox'],
+          w3c: false
         }
       }
     }
